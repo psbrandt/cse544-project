@@ -1,6 +1,8 @@
 # CSE 544 Final Project
 > ### Differential Privacy in the OMOP CDM
 
+To get your environment set up, follow the instructions below. See the [experiments](experiments) 👨🏻‍🔬 directory for the actual work.
+
 ## Setup
 
 A lot of the following is based off [these instructions](https://github.com/OHDSI/ETL-CMS/blob/master/python_etl/README.md), and most
