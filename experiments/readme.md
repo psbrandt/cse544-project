@@ -3,11 +3,17 @@
 
 ## Setup
 
-The experiments are done using [Jupyter](http://jupyter.org/) notebooks. Make sure you add the `postgres` user password as an environment
-variable when running `jupyter`:
+The experiments are done using [Jupyter](http://jupyter.org/) notebooks. Make sure it's installed, and also
+install [Jupyter Widgets](https://ipywidgets.readthedocs.io/en/latest/user_install.html):
+
+```
+conda install -c conda-forge ipywidgets
+```
+
+When you run Jupyter, add the `postgres` user password as an environment variable:
 
 ```
 $ PGPASSWORD=s3cr3t jupyter notebook
 ```
 
-Running `jupyter` from this (the `experiments`) directory probably makes the most sense.
+Running Jupyter from this (the `experiments`) directory probably makes the most sense.
