@@ -13,7 +13,7 @@ conda install -c conda-forge ipywidgets
 When you run Jupyter, add the `postgres` user password as an environment variable:
 
 ```
-$ PGPASSWORD=s3cr3t jupyter notebook
+PGPASSWORD=s3cr3t jupyter notebook
 ```
 
 Running Jupyter from this (the `experiments`) directory probably makes the most sense.
